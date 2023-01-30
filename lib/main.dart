@@ -35,7 +35,7 @@ class _HomeState extends State<Home> {
 
               const Image(image: AssetImage('assets/login.jpeg'),
                 fit: BoxFit.cover,
-                width: 256,
+                width: 350,
                 alignment: Alignment.topCenter,),
 
               const Image(image: AssetImage('assets/eatfit.jpeg'),
@@ -88,7 +88,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
 
-              const SizedBox(height: 100),
+              const SizedBox(height: 200),
 
               ElevatedButton(onPressed: (){
                 if(_formKey.currentState!.validate()) {
